@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Polly.JS adapter for Playwright",
   "repository": "https://github.com/redabacha/polly-adapter-playwright.git",
-  "author": "redabacha",
+  "author": "Reda Bacha",
   "license": "MIT",
   "source": "./src/index.ts",
   "main": "./dist/index.js",
