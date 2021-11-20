@@ -1,7 +1,7 @@
 # polly-adapter-playwright
 
 [![npm](https://shields.io/npm/v/polly-adapter-playwright)](https://www.npmjs.com/package/polly-adapter-playwright)
-![license](https://shields.io/github/license/redabacha/polly-adapter-playwright)
+[![license](https://shields.io/github/license/redabacha/polly-adapter-playwright)](https://github.com/redabacha/polly-adapter-playwright/blob/main/LICENSE)
 
 [Polly.JS](https://netflix.github.io/pollyjs/#/) adapter for [Playwright](https://playwright.dev/). This adapter will attach to a given browser context or page from Playwright for recording and replaying requests.
 
