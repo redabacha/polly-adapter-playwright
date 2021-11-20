@@ -1,0 +1,63 @@
+{
+  "name": "polly-adapter-playwright",
+  "version": "1.0.0",
+  "description": "Polly.JS adapter for Playwright",
+  "repository": "https://github.com/redabacha/polly-adapter-playwright.git",
+  "author": "redabacha",
+  "license": "MIT",
+  "source": "./src/index.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "lint": "eslint --cache .",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,json,ts}": "eslint --cache --fix",
+    "*.{js,json,ts,md}": "prettier --write"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "peerDependencies": {
+    "@pollyjs/adapter": "*",
+    "@pollyjs/core": "*",
+    "playwright": "*"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@pollyjs/adapter": "^5.1.1",
+    "@pollyjs/core": "^5.1.1",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^16.11.9",
+    "@types/pollyjs__adapter": "^4.3.1",
+    "@types/pollyjs__core": "^4.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.0.3",
+    "playwright": "^1.16.3",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^18.0.0",
+    "typescript": "^4.5.2"
+  }
+}
