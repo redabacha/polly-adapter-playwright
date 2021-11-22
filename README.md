@@ -90,7 +90,7 @@ await context.close();
 
 ## Options
 
-| Name                  | Type                                                                                                                                                                                                         |
+| Name                  | Description                                                                                                                                                                                                  |
 | :-------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `context`             | The browser context or page where requests will be intercepted.                                                                                                                                              |
 | `modifyResponse`      | Fires before a response is fulfilled for any intercepted request. By default it will modify all responses to allow cross-origin resource sharing by setting the `access-control-allow-origin` header to `*`. |
