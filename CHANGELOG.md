@@ -1,3 +1,14 @@
+# [2.0.0](https://github.com/redabacha/polly-adapter-playwright/compare/v1.0.0...v2.0.0) (2021-12-10)
+
+
+* feat!: upgrade to polly.js v6 ([c88a956](https://github.com/redabacha/polly-adapter-playwright/commit/c88a95612ad269557d07262fa51f73986c8678c4))
+
+
+### BREAKING CHANGES
+
+* remove the textMimeTypes option
+* remove playwright as a peer dependency
+
 # 1.0.0 (2021-11-20)
 
 
