@@ -36,28 +36,25 @@
   },
   "peerDependencies": {
     "@pollyjs/adapter": "*",
-    "@pollyjs/core": "*",
-    "playwright": "*"
+    "@pollyjs/core": "*"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
-    "@pollyjs/adapter": "^5.1.1",
-    "@pollyjs/core": "^5.1.1",
+    "@pollyjs/adapter": "^6.0.4",
+    "@pollyjs/core": "^6.0.4",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
-    "@types/node": "^16.11.9",
-    "@types/pollyjs__adapter": "^4.3.1",
-    "@types/pollyjs__core": "^4.3.3",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "eslint": "^8.2.0",
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
     "husky": "^7.0.4",
-    "lint-staged": "^12.0.3",
-    "playwright": "^1.16.3",
-    "prettier": "^2.4.1",
+    "lint-staged": "^12.1.2",
+    "playwright-core": "^1.17.1",
+    "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "semantic-release": "^18.0.0",
-    "typescript": "^4.5.2"
+    "semantic-release": "^18.0.1",
+    "typescript": "^4.5.3"
   }
 }

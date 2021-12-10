@@ -1,4 +1,6 @@
-export * from './PlaywrightAdapter';
-export * from './types';
+import { PlaywrightAdapter as Adapter } from './PlaywrightAdapter';
 
-export { PlaywrightAdapter as default } from './PlaywrightAdapter';
+export const PlaywrightAdapter = Adapter;
+export default Adapter;
+
+export type { PlaywrightAdapterOptions } from './types';

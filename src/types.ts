@@ -1,8 +1,11 @@
-import { Request as OriginalPollyRequest } from '@pollyjs/core';
-import { BrowserContext, Page, Request, Route } from 'playwright';
+import type * as polly from '@pollyjs/core';
+import type { BrowserContext, Page, Request, Route } from 'playwright-core';
 
-export type PollyRequest = OriginalPollyRequest & {
-  requestArguments: { route: Route; request: Request };
+export type PollyRequest = polly.Request<{
+  route: Route;
+  request: Request;
+}> & {
+  response?: PollyResponse;
 };
 
 export type PollyResponse = {
@@ -29,9 +32,4 @@ export type PlaywrightAdapterOptions = {
    * By default it will only match requests made by `fetch` or `XMLHttpRequest` calls.
    */
   shouldHandleRequest?: (request: Request) => boolean | Promise<boolean>;
-  /**
-   * Defines which mime types should be treated as text rather than binary data when persisting responses.
-   * By default this includes `application/json`, `image/svg+xml` and any mime types starting with `text/`.
-   */
-  textMimeTypes?: (RegExp | string)[];
 };
