@@ -24,7 +24,12 @@ export class PlaywrightAdapter extends PollyAdapter<
     };
   }
 
-  public readonly defaultOptions = PlaywrightAdapter.defaultOptions;
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  public get defaultOptions() {
+    return PlaywrightAdapter.defaultOptions;
+  }
+
   public readonly options!: Required<PlaywrightAdapterOptions>;
 
   public onConnect() {
