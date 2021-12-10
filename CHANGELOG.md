@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/redabacha/polly-adapter-playwright/compare/v2.0.0...v2.0.1) (2021-12-10)
+
+
+### Bug Fixes
+
+* set defaultOptions as getter instead of property ([c7e48e1](https://github.com/redabacha/polly-adapter-playwright/commit/c7e48e1733985cd50ccc4e7b98b693a26d9b952b))
+
 # [2.0.0](https://github.com/redabacha/polly-adapter-playwright/compare/v1.0.0...v2.0.0) (2021-12-10)
 
 
