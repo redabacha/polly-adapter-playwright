@@ -34,6 +34,7 @@
       "@semantic-release/github"
     ]
   },
+  "packageManager": "yarn@3.1.1",
   "peerDependencies": {
     "@pollyjs/adapter": "^6.0.0"
   },
