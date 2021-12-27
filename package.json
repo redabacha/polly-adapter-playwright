@@ -1,6 +1,6 @@
 {
   "name": "polly-adapter-playwright",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Polly.JS adapter for Playwright",
   "repository": "https://github.com/redabacha/polly-adapter-playwright.git",
   "author": "Reda Bacha",

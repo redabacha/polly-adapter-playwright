@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/redabacha/polly-adapter-playwright/compare/v2.0.1...v2.1.0) (2021-12-27)
+
+
+### Features
+
+* make all responses allow cors by default ([fb58750](https://github.com/redabacha/polly-adapter-playwright/commit/fb58750ed6109597becbed479d7630d3e516dc20))
+
 ## [2.0.1](https://github.com/redabacha/polly-adapter-playwright/compare/v2.0.0...v2.0.1) (2021-12-10)
 
 
