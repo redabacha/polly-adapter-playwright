@@ -17,7 +17,7 @@ export class PlaywrightAdapter extends PollyAdapter<
     return {
       modifyResponse: (response: PollyResponse) => ({
         ...response,
-        headers: { 'access-control-allow-origin': '*', ...response.headers }
+        headers: { ...response.headers, 'access-control-allow-origin': '*' }
       }),
       shouldHandleRequest: (request: Request) =>
         ['fetch', 'xhr'].includes(request.resourceType())
