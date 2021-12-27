@@ -35,7 +35,7 @@
     ]
   },
   "peerDependencies": {
-    "@pollyjs/adapter": "*"
+    "@pollyjs/adapter": "^6.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.0",
