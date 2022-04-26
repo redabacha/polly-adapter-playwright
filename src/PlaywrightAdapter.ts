@@ -24,8 +24,7 @@ export class PlaywrightAdapter extends PollyAdapter<
     };
   }
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
+  // @ts-expect-error polly.js needs this
   public get defaultOptions() {
     return PlaywrightAdapter.defaultOptions;
   }
