@@ -1,12 +1,15 @@
-node_modules
-dist
 .DS_Store
+.env
 .eslintcache
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnp.*
+coverage
+dist
+/node_modules
+package-lock.json
+tsconfig.tsbuildinfo
+
+# Yarn
 .yarn/*
+!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
