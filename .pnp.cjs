@@ -39,7 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright-core", "npm:1.28.0"],\
             ["prettier", "npm:2.7.1"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -933,7 +933,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["regexpp", "npm:3.2.0"],\
             ["semver", "npm:7.3.7"],\
             ["tsutils", "virtual:a1626799babedb472989a6802757091c79ca90f90e048f48188b163065e4629c60c991b2233a5028234eec64791f4ae5cc693a3588ff89533aca44269af1e367#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -965,7 +965,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "virtual:1df4a9b29f949be1fff74eac21ee7bd78a3ded9fa2dbf48f6ae4a0b76797801c8879e602ea1c71a9efd3677eec98ae4abd4884f96a725c7fdbcb834cc5c55cd6#npm:5.43.0"],\
             ["debug", "virtual:9e3a462140b35a19ddb3d48ebde58d66740d97f4c0386bc195c327fc2c44fa59f43cbcb382dd9f194b16d0dd6c0a138aadd4a9de84088f88e25946598f97cb88#npm:4.3.4"],\
             ["eslint", "npm:8.28.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -1006,7 +1006,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:9e3a462140b35a19ddb3d48ebde58d66740d97f4c0386bc195c327fc2c44fa59f43cbcb382dd9f194b16d0dd6c0a138aadd4a9de84088f88e25946598f97cb88#npm:4.3.4"],\
             ["eslint", "npm:8.28.0"],\
             ["tsutils", "virtual:a1626799babedb472989a6802757091c79ca90f90e048f48188b163065e4629c60c991b2233a5028234eec64791f4ae5cc693a3588ff89533aca44269af1e367#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "packagePeers": [\
             "@types/eslint",\
@@ -1046,7 +1046,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-glob", "npm:4.0.3"],\
             ["semver", "npm:7.3.7"],\
             ["tsutils", "virtual:a1626799babedb472989a6802757091c79ca90f90e048f48188b163065e4629c60c991b2233a5028234eec64791f4ae5cc693a3588ff89533aca44269af1e367#npm:3.21.0"],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -4069,7 +4069,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["normalize-package-data", "npm:2.5.0"],\
             ["hosted-git-info", "npm:2.8.9"],\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["semver", "npm:5.7.1"],\
             ["validate-npm-package-license", "npm:3.0.4"]\
           ],\
@@ -4690,7 +4690,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright-core", "npm:1.28.0"],\
             ["prettier", "npm:2.7.1"],\
             ["semantic-release", "npm:19.0.5"],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -5046,10 +5046,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["resolve", [\
-        ["patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b", {\
-          "packageLocation": "./.yarn/cache/resolve-patch-46f9469d0d-5656f4d0be.zip/node_modules/resolve/",\
+        ["patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d", {\
+          "packageLocation": "./.yarn/cache/resolve-patch-0c52e0e4f7-5656f4d0be.zip/node_modules/resolve/",\
           "packageDependencies": [\
-            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"],\
+            ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"],\
             ["is-core-module", "npm:2.10.0"],\
             ["path-parse", "npm:1.0.7"],\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
@@ -5748,7 +5748,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tsutils", "virtual:a1626799babedb472989a6802757091c79ca90f90e048f48188b163065e4629c60c991b2233a5028234eec64791f4ae5cc693a3588ff89533aca44269af1e367#npm:3.21.0"],\
             ["@types/typescript", null],\
             ["tslib", "npm:1.14.1"],\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "packagePeers": [\
             "@types/typescript",\
@@ -5812,10 +5812,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-692cf54e2c-ef65c22622.zip/node_modules/typescript/",\
+        ["patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-b9b216bc0d-67ca21a387.zip/node_modules/typescript/",\
           "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=701156"]\
+            ["typescript", "patch:typescript@npm%3A4.9.3#~builtin<compat/typescript>::version=4.9.3&hash=d73830"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6351,7 +6351,8 @@ function areStatsEqual(a, b) {
 
 const PortablePath = {
   root: `/`,
-  dot: `.`
+  dot: `.`,
+  parent: `..`
 };
 const Filename = {
   nodeModules: `node_modules`,
@@ -9916,7 +9917,7 @@ class ZipOpenFS extends BasePortableFakeFS {
   }
 }
 
-class URLFS extends ProxiedFS {
+class NodePathFS extends ProxiedFS {
   constructor(baseFs) {
     super(npath);
     this.baseFs = baseFs;
@@ -9925,9 +9926,17 @@ class URLFS extends ProxiedFS {
     return path;
   }
   mapToBase(path) {
+    if (typeof path === `string`)
+      return path;
     if (path instanceof url.URL)
       return url.fileURLToPath(path);
-    return path;
+    if (Buffer.isBuffer(path)) {
+      const str = path.toString();
+      if (Buffer.byteLength(str) !== path.byteLength)
+        throw new Error(`Non-utf8 buffers are not supported at the moment. Please upvote the following issue if you encounter this error: https://github.com/yarnpkg/berry/issues/4942`);
+      return str;
+    }
+    throw new Error(`Unsupported path type: ${nodeUtils.inspect(path)}`);
   }
 }
 
@@ -10216,7 +10225,7 @@ const ASYNC_IMPLEMENTATIONS = /* @__PURE__ */ new Set([
   `writeSync`
 ]);
 function patchFs(patchedFs, fakeFs) {
-  fakeFs = new URLFS(fakeFs);
+  fakeFs = new NodePathFS(fakeFs);
   const setupFn = (target, name, replacement) => {
     const orig = target[name];
     target[name] = replacement;
