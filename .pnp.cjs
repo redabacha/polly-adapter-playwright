@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:5.49.0"],\
             ["@typescript-eslint/parser", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:5.48.2"],\
             ["eslint", "npm:8.29.0"],\
-            ["playwright-core", "npm:1.29.2"],\
+            ["playwright-core", "npm:1.30.0"],\
             ["prettier", "npm:2.8.3"],\
             ["semantic-release", "npm:19.0.5"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
@@ -4708,10 +4708,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["playwright-core", [\
-        ["npm:1.29.2", {\
-          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.29.2-cb2a84a9e6/node_modules/playwright-core/",\
+        ["npm:1.30.0", {\
+          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.30.0-ed7c04af76/node_modules/playwright-core/",\
           "packageDependencies": [\
-            ["playwright-core", "npm:1.29.2"]\
+            ["playwright-core", "npm:1.30.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4729,7 +4729,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:5.49.0"],\
             ["@typescript-eslint/parser", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:5.48.2"],\
             ["eslint", "npm:8.29.0"],\
-            ["playwright-core", "npm:1.29.2"],\
+            ["playwright-core", "npm:1.30.0"],\
             ["prettier", "npm:2.8.3"],\
             ["semantic-release", "npm:19.0.5"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"]\
