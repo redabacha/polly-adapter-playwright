@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@pollyjs/adapter", "npm:6.0.4"],\
             ["@pollyjs/core", "npm:6.0.5"],\
-            ["@semantic-release/changelog", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.0.2"],\
+            ["@semantic-release/changelog", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.0.3"],\
             ["@semantic-release/git", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:10.0.1"],\
             ["@types/node", "npm:18.14.2"],\
             ["@typescript-eslint/eslint-plugin", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:5.54.0"],\
@@ -630,17 +630,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@semantic-release/changelog", [\
-        ["npm:6.0.2", {\
-          "packageLocation": "./.yarn/cache/@semantic-release-changelog-npm-6.0.2-63a61e6d7f-e116a1ac25.zip/node_modules/@semantic-release/changelog/",\
+        ["npm:6.0.3", {\
+          "packageLocation": "./.yarn/cache/@semantic-release-changelog-npm-6.0.3-32085d167e-63283df7aa.zip/node_modules/@semantic-release/changelog/",\
           "packageDependencies": [\
-            ["@semantic-release/changelog", "npm:6.0.2"]\
+            ["@semantic-release/changelog", "npm:6.0.3"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.0.2", {\
-          "packageLocation": "./.yarn/__virtual__/@semantic-release-changelog-virtual-0b58d7125d/0/cache/@semantic-release-changelog-npm-6.0.2-63a61e6d7f-e116a1ac25.zip/node_modules/@semantic-release/changelog/",\
+        ["virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.0.3", {\
+          "packageLocation": "./.yarn/__virtual__/@semantic-release-changelog-virtual-e7d741887c/0/cache/@semantic-release-changelog-npm-6.0.3-32085d167e-63283df7aa.zip/node_modules/@semantic-release/changelog/",\
           "packageDependencies": [\
-            ["@semantic-release/changelog", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.0.2"],\
+            ["@semantic-release/changelog", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.0.3"],\
             ["@semantic-release/error", "npm:3.0.0"],\
             ["@types/semantic-release", null],\
             ["aggregate-error", "npm:3.1.0"],\
@@ -4841,7 +4841,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["polly-adapter-playwright", "workspace:."],\
             ["@pollyjs/adapter", "npm:6.0.4"],\
             ["@pollyjs/core", "npm:6.0.5"],\
-            ["@semantic-release/changelog", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.0.2"],\
+            ["@semantic-release/changelog", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.0.3"],\
             ["@semantic-release/git", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:10.0.1"],\
             ["@types/node", "npm:18.14.2"],\
             ["@typescript-eslint/eslint-plugin", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:5.54.0"],\
