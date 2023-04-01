@@ -4115,11 +4115,11 @@ __metadata:
   linkType: hard
 
 "playwright-core@npm:^1.30.0":
-  version: 1.30.0
-  resolution: "playwright-core@npm:1.30.0"
+  version: 1.32.1
+  resolution: "playwright-core@npm:1.32.1"
   bin:
     playwright: cli.js
-  checksum: 4c5693f27245a1168f94708ecd8e1eb0d200de435b25cc07cfa25b97a094633818954dc00baf24e0ff551825f672050b83d1309362c1f97213fe8ebd2a147ed9
+  checksum: 796185e605df3c970885845c1fbf2de53db5d089d37946850483797c91b81ab9dc87c3440695e96a8c92613324ef3deaea698afaf2c379548a23f8ce074931de
   languageName: node
   linkType: hard
 
