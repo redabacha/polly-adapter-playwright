@@ -1,26 +1,26 @@
-import PollyAdapter from '@pollyjs/adapter';
-import type { Request, Route } from 'playwright-core';
+import PollyAdapter from "@pollyjs/adapter";
+import type { Request, Route } from "playwright-core";
 import type {
   PlaywrightAdapterOptions,
   PollyRequest,
-  PollyResponse
-} from './types';
+  PollyResponse,
+} from "./types";
 
 export class PlaywrightAdapter extends PollyAdapter<
   Partial<PlaywrightAdapterOptions>
 > {
   public static get id() {
-    return 'playwright';
+    return "playwright";
   }
 
   public static get defaultOptions() {
     return {
       modifyResponse: (response: PollyResponse) => ({
         ...response,
-        headers: { ...response.headers, 'access-control-allow-origin': '*' }
+        headers: { ...response.headers, "access-control-allow-origin": "*" },
       }),
       shouldHandleRequest: (request: Request) =>
-        ['fetch', 'xhr'].includes(request.resourceType())
+        ["fetch", "xhr"].includes(request.resourceType()),
     };
   }
 
@@ -32,12 +32,12 @@ export class PlaywrightAdapter extends PollyAdapter<
   public readonly options!: Required<PlaywrightAdapterOptions>;
 
   public onConnect() {
-    return this.options.context.route('**/*', this.handleRoute);
+    return this.options.context.route("**/*", this.handleRoute);
   }
 
   public async onDisconnect() {
     try {
-      return await this.options.context.unroute('**/*', this.handleRoute);
+      return await this.options.context.unroute("**/*", this.handleRoute);
     } catch (e) {
       // ignore errors
       return undefined;
@@ -54,20 +54,20 @@ export class PlaywrightAdapter extends PollyAdapter<
       headers: response.headers(),
       ...(this.isBufferUtf8Representable(body)
         ? {
-            body: body.toString('utf8'),
-            encoding: 'utf8'
+            body: body.toString("utf8"),
+            encoding: "utf8",
           }
         : {
-            body: body.toString('base64'),
-            encoding: 'base64'
-          })
+            body: body.toString("base64"),
+            encoding: "base64",
+          }),
     };
   }
 
   public async onRespond(pollyRequest: PollyRequest, error: Error) {
     const {
       requestArguments: { request, route },
-      response
+      response,
     } = pollyRequest;
 
     if (error) {
@@ -77,9 +77,9 @@ export class PlaywrightAdapter extends PollyAdapter<
     let body: Buffer | string | undefined;
 
     if (response?.body) {
-      body = this.isBufferUtf8Representable(Buffer.from(response.body, 'utf8'))
+      body = this.isBufferUtf8Representable(Buffer.from(response.body, "utf8"))
         ? response.body
-        : Buffer.from(response.body, 'base64');
+        : Buffer.from(response.body, "base64");
     }
 
     return route.fulfill(
@@ -87,10 +87,10 @@ export class PlaywrightAdapter extends PollyAdapter<
         {
           status: response?.statusCode,
           headers: response?.headers,
-          body
+          body,
         },
-        request
-      )
+        request,
+      ),
     );
   }
 
@@ -101,7 +101,7 @@ export class PlaywrightAdapter extends PollyAdapter<
         method: request.method(),
         headers: await request.allHeaders(),
         body: request.postData() ?? undefined,
-        requestArguments: { route, request }
+        requestArguments: { route, request },
       });
     } else {
       route.continue();
@@ -110,8 +110,8 @@ export class PlaywrightAdapter extends PollyAdapter<
 
   // https://github.com/Netflix/pollyjs/blob/9f4179a76d4c09f26c4cd21683bf00ac3f99ac59/packages/@pollyjs/utils/src/utils/is-buffer-utf8-representable.js
   private isBufferUtf8Representable(buffer: Buffer) {
-    const utfEncodedBuffer = buffer.toString('utf8');
-    const reconstructedBuffer = Buffer.from(utfEncodedBuffer, 'utf8');
+    const utfEncodedBuffer = buffer.toString("utf8");
+    const reconstructedBuffer = Buffer.from(utfEncodedBuffer, "utf8");
 
     return reconstructedBuffer.equals(buffer);
   }

@@ -13,8 +13,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist",
-    "lint": "eslint --cache ."
+    "clean": "rm -rf .eslintcache dist node_modules tsconfig.tsbuildinfo",
+    "lint": "eslint --cache src"
   },
   "release": {
     "branches": [
@@ -29,22 +29,22 @@
       "@semantic-release/github"
     ]
   },
-  "packageManager": "yarn@3.4.1",
+  "packageManager": "yarn@4.0.2",
   "peerDependencies": {
     "@pollyjs/adapter": "^6.0.0"
   },
   "devDependencies": {
-    "@pollyjs/adapter": "^6.0.4",
-    "@pollyjs/core": "^6.0.5",
-    "@semantic-release/changelog": "^6.0.2",
+    "@pollyjs/adapter": "^6.0.6",
+    "@pollyjs/core": "^6.0.6",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@types/node": "^18.11.18",
-    "@typescript-eslint/eslint-plugin": "^5.50.0",
-    "@typescript-eslint/parser": "^5.50.0",
-    "eslint": "^8.33.0",
-    "playwright-core": "^1.30.0",
-    "prettier": "^2.8.3",
-    "semantic-release": "^20.1.0",
-    "typescript": "^4.9.5"
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "playwright-core": "^1.40.1",
+    "prettier": "^3.1.1",
+    "semantic-release": "^22.0.12",
+    "typescript": "^5.3.3"
   }
 }

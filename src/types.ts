@@ -1,5 +1,5 @@
-import type * as polly from '@pollyjs/core';
-import type { BrowserContext, Page, Request, Route } from 'playwright-core';
+import type * as polly from "@pollyjs/core";
+import type { BrowserContext, Page, Request, Route } from "playwright-core";
 
 export type PollyRequest = polly.Request<{
   route: Route;
@@ -25,7 +25,7 @@ export type PlaywrightAdapterOptions = {
    */
   modifyResponse?: (
     response: PollyResponse,
-    request: Request
+    request: Request,
   ) => PollyResponse | Promise<PollyResponse>;
   /**
    * Specifies criteria that should be matched for a request to be intercepted.
