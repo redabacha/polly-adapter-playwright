@@ -1,9 +1,8 @@
 # [2.3.0](https://github.com/redabacha/polly-adapter-playwright/compare/v2.2.0...v2.3.0) (2023-12-24)
 
-
 ### Features
 
-* allow route interception to be configurable ([1d693b6](https://github.com/redabacha/polly-adapter-playwright/commit/1d693b67279c4474571762437cb6870b43574b1a)), closes [#61](https://github.com/redabacha/polly-adapter-playwright/issues/61)
+- allow route interception to be configurable ([1d693b6](https://github.com/redabacha/polly-adapter-playwright/commit/1d693b67279c4474571762437cb6870b43574b1a)), closes [#61](https://github.com/redabacha/polly-adapter-playwright/issues/61)
 
 # [2.2.0](https://github.com/redabacha/polly-adapter-playwright/compare/v2.1.0...v2.2.0) (2023-12-24)
 
