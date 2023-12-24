@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/redabacha/polly-adapter-playwright/compare/v2.1.0...v2.2.0) (2023-12-24)
+
+
+### Features
+
+* enable ts declaration maps ([1d9f48d](https://github.com/redabacha/polly-adapter-playwright/commit/1d9f48dfc3c9c09e59223a4efba1291be3df341e))
+
 # [2.1.0](https://github.com/redabacha/polly-adapter-playwright/compare/v2.0.1...v2.1.0) (2021-12-27)
 
 ### Features
