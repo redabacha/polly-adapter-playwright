@@ -28,6 +28,10 @@ export type PlaywrightAdapterOptions = {
     request: Request,
   ) => PollyResponse | Promise<PollyResponse>;
   /**
+   * Configures which routes should be intercepted. By default this is set to `**\/*` which means all routes.
+   */
+  routesToIntercept?: string | RegExp | ((url: URL) => boolean);
+  /**
    * Specifies criteria that should be matched for a request to be intercepted.
    * By default it will only match requests made by `fetch` or `XMLHttpRequest` calls.
    */

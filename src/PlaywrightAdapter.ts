@@ -19,6 +19,7 @@ export class PlaywrightAdapter extends PollyAdapter<
         ...response,
         headers: { ...response.headers, "access-control-allow-origin": "*" },
       }),
+      routesToIntercept: "**/*",
       shouldHandleRequest: (request: Request) =>
         ["fetch", "xhr"].includes(request.resourceType()),
     };
@@ -32,12 +33,18 @@ export class PlaywrightAdapter extends PollyAdapter<
   public readonly options!: Required<PlaywrightAdapterOptions>;
 
   public onConnect() {
-    return this.options.context.route("**/*", this.handleRoute);
+    return this.options.context.route(
+      this.options.routesToIntercept,
+      this.handleRoute,
+    );
   }
 
   public async onDisconnect() {
     try {
-      return await this.options.context.unroute("**/*", this.handleRoute);
+      return await this.options.context.unroute(
+        this.options.routesToIntercept,
+        this.handleRoute,
+      );
     } catch (e) {
       // ignore errors
       return undefined;
