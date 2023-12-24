@@ -3,7 +3,7 @@
     "allowJs": true,
     "checkJs": true,
     "declaration": true,
-    "declarationMap": false,
+    "declarationMap": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
