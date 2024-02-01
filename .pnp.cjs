@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/parser", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.15.0"],\
           ["eslint", "npm:8.56.0"],\
           ["playwright-core", "npm:1.40.1"],\
-          ["prettier", "npm:3.1.1"],\
+          ["prettier", "npm:3.2.4"],\
           ["semantic-release", "npm:22.0.12"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
@@ -4698,7 +4698,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/parser", "virtual:572f03b3c763731fbd8f3fc77d2cbec3468917ca29117575f1f74b467d11d167894d2b3df74cd97cb3e361856c401eaf6507c8b0006449c08a0ccf73f4017926#npm:6.15.0"],\
           ["eslint", "npm:8.56.0"],\
           ["playwright-core", "npm:1.40.1"],\
-          ["prettier", "npm:3.1.1"],\
+          ["prettier", "npm:3.2.4"],\
           ["semantic-release", "npm:22.0.12"],\
           ["typescript", "patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"]\
         ],\
@@ -4726,10 +4726,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.1.1", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.1.1-072c31ec21/node_modules/prettier/",\
+      ["npm:3.2.4", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.2.4-3ca24592c3/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.1.1"]\
+          ["prettier", "npm:3.2.4"]\
         ],\
         "linkType": "HARD"\
       }]\
