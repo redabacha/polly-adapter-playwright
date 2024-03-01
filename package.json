@@ -39,7 +39,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/node": "^20.10.5",
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^6.15.0",
     "eslint": "^8.56.0",
     "playwright-core": "^1.40.1",
