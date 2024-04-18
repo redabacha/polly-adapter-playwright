@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/redabacha/polly-adapter-playwright/compare/v2.3.0...v2.4.0) (2024-04-18)
+
+
+### Features
+
+* add handleFailingRequest option ([#89](https://github.com/redabacha/polly-adapter-playwright/issues/89)) ([b27554e](https://github.com/redabacha/polly-adapter-playwright/commit/b27554eba3544a461c4aee2be27f129fb692be14)), closes [#88](https://github.com/redabacha/polly-adapter-playwright/issues/88)
+
 # [2.3.0](https://github.com/redabacha/polly-adapter-playwright/compare/v2.2.0...v2.3.0) (2023-12-24)
 
 ### Features
