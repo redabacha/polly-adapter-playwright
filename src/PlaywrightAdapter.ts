@@ -15,6 +15,7 @@ export class PlaywrightAdapter extends PollyAdapter<
 
   public static get defaultOptions() {
     return {
+      handleFailingRequest: (route: Route) => route.abort(),
       modifyResponse: (response: PollyResponse) => ({
         ...response,
         headers: { ...response.headers, "access-control-allow-origin": "*" },
@@ -78,7 +79,7 @@ export class PlaywrightAdapter extends PollyAdapter<
     } = pollyRequest;
 
     if (error) {
-      return route.abort();
+      return this.options.handleFailingRequest(route, pollyRequest, error);
     }
 
     let body: Buffer | string | undefined;

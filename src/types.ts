@@ -20,6 +20,14 @@ export type PlaywrightAdapterOptions = {
    */
   context: BrowserContext | Page;
   /**
+   * Controls how failing requests from Polly will be handled by Playwright. By default this calls `route.abort()`.
+   */
+  handleFailingRequest?: (
+    route: Route,
+    request: PollyRequest,
+    error: Error,
+  ) => void | Promise<void>;
+  /**
    * Fires before a response is fulfilled for any intercepted request. By default it will modify all responses
    * to allow cross-origin resource sharing by setting the `access-control-allow-origin` header to `*`.
    */
