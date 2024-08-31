@@ -755,7 +755,7 @@ const RAW_RUNTIME_STATE =
           ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"],\
           ["import-from-esm", "npm:1.3.3"],\
           ["lodash-es", "npm:4.17.21"],\
-          ["micromatch", "npm:4.0.5"],\
+          ["micromatch", "npm:4.0.8"],\
           ["semantic-release", "npm:23.0.8"]\
         ],\
         "packagePeers": [\
@@ -800,7 +800,7 @@ const RAW_RUNTIME_STATE =
           ["dir-glob", "npm:3.0.1"],\
           ["execa", "npm:5.1.1"],\
           ["lodash", "npm:4.17.21"],\
-          ["micromatch", "npm:4.0.5"],\
+          ["micromatch", "npm:4.0.8"],\
           ["p-reduce", "npm:2.1.0"],\
           ["semantic-release", "npm:23.0.8"]\
         ],\
@@ -1602,11 +1602,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["braces", [\
-      ["npm:3.0.2", {\
-        "packageLocation": "./.yarn/cache/braces-npm-3.0.2-782240b28a-321b4d6757.zip/node_modules/braces/",\
+      ["npm:3.0.3", {\
+        "packageLocation": "./.yarn/cache/braces-npm-3.0.3-582c14023c-7c6dfd30c3.zip/node_modules/braces/",\
         "packageDependencies": [\
-          ["braces", "npm:3.0.2"],\
-          ["fill-range", "npm:7.0.1"]\
+          ["braces", "npm:3.0.3"],\
+          ["fill-range", "npm:7.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2477,7 +2477,7 @@ const RAW_RUNTIME_STATE =
           ["@nodelib/fs.walk", "npm:1.2.8"],\
           ["glob-parent", "npm:5.1.2"],\
           ["merge2", "npm:1.4.1"],\
-          ["micromatch", "npm:4.0.5"]\
+          ["micromatch", "npm:4.0.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2548,10 +2548,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["fill-range", [\
-      ["npm:7.0.1", {\
-        "packageLocation": "./.yarn/cache/fill-range-npm-7.0.1-b8b1817caa-7cdad7d426.zip/node_modules/fill-range/",\
+      ["npm:7.1.1", {\
+        "packageLocation": "./.yarn/cache/fill-range-npm-7.1.1-bf491486db-b75b691bbe.zip/node_modules/fill-range/",\
         "packageDependencies": [\
-          ["fill-range", "npm:7.0.1"],\
+          ["fill-range", "npm:7.1.1"],\
           ["to-regex-range", "npm:5.0.1"]\
         ],\
         "linkType": "HARD"\
@@ -3911,11 +3911,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["micromatch", [\
-      ["npm:4.0.5", {\
-        "packageLocation": "./.yarn/cache/micromatch-npm-4.0.5-cfab5d7669-3d6505b20f.zip/node_modules/micromatch/",\
+      ["npm:4.0.8", {\
+        "packageLocation": "./.yarn/cache/micromatch-npm-4.0.8-c9570e4aca-166fa6eb92.zip/node_modules/micromatch/",\
         "packageDependencies": [\
-          ["micromatch", "npm:4.0.5"],\
-          ["braces", "npm:3.0.2"],\
+          ["micromatch", "npm:4.0.8"],\
+          ["braces", "npm:3.0.3"],\
           ["picomatch", "npm:2.3.1"]\
         ],\
         "linkType": "HARD"\
@@ -5291,7 +5291,7 @@ const RAW_RUNTIME_STATE =
           ["lodash-es", "npm:4.17.21"],\
           ["marked", "npm:12.0.1"],\
           ["marked-terminal", "virtual:ed3ade2fe0bb7a992080e738d0dc201467ad045b368f7daa06091aeaf86d76feb7a0339a5cffa007da93623a4988c5d65fee8843487082143f7315750a6bdf89#npm:7.0.0"],\
-          ["micromatch", "npm:4.0.5"],\
+          ["micromatch", "npm:4.0.8"],\
           ["p-each-series", "npm:3.0.0"],\
           ["p-reduce", "npm:3.0.0"],\
           ["read-package-up", "npm:11.0.0"],\
